@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/font_awesome/css/all.min.css"> 
+    <link rel="stylesheet" href="assets/font_awesome/css/all.css"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/my_logo.jpg">
+            </div>
+                <ul class="navigation">
+                    <li><a href="#" class="fa-solid fa-house-chimney">&nbsp;Beranda</a></li>
+                    <li><a href="#" class="fa-solid fa-blog">&nbsp;Blog</a></li>
+                    <li><a href="#" class="fa-solid fa-people-group">&nbsp;Tentang Kami</a></li>
+                    <li><a href="#" class="fa-solid fa-phone">&nbsp;Kontak Kami</a></li>
+                </ul>
+            </div>
+    </div>
+    <!--/Header-->
+
+    <!--Banner-->
+    <div class="banner">
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Foto_Alam_Indonesia_%28_kelapa_%29_M.kisra_Anusyirwan.jpg/1200px-Foto_Alam_Indonesia_%28_kelapa_%29_M.kisra_Anusyirwan.jpg" alt="" srcset=""/>
+                </div>
+                <div class="item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Pemandangan_Alam_di_Enrekang_Ini_Buat_Mata_Kamu_Berhenti_Berkedip.jpg/1200px-Pemandangan_Alam_di_Enrekang_Ini_Buat_Mata_Kamu_Berhenti_Berkedip.jpg" alt="" srcset=""/>
+                </div>
+
+            </div>
+        </div>
+    </>
+    <!--/Banner-->
+
+    <!--Content-->
+    <div class="content">
+        <div class="container">
+            <div class="main">
+                <p class="justify">Kami adalah penyedia jasa Teknologi Informasi, baik dari sisi aplikasi
+                    /software maupun hardware dan mengintregariskan keduanya untuk memberikan 
+                    solusi yang optimal bagi kebutuhan customer. Kami berfokus mengembangkan aplikasi database untuk menangani proses bisnis 
+                    dan administasi baik swasta maupun instansi pemerintah. Berbagai produk aplikasi 
+                    database telah kami riset dan kembangkan selama lebih dari 15 tahun.</p>
+            </div>
+            <div class="aside">
+                <h2>Sidebar</h2>
+                <input type="text"/>
+                <button>cari</button>
+                <ul>
+                    <li><a href="#">Berita</a></li>
+                    <li><a href="#">Arsip</a></li>
+                    <li><a href="#">Bulan ini</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/Content-->
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <p>Copyrights &copy;2022 - Dokumen</p>
+        </div>
+    </div>
+    <!--/Footer-->
+
+    <!--Script JQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+    </script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(function(){
+            $('.owl-carousel').owlCarousel({
+                autoplay:true,
+                autoplayspeed:5000,
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    1000:{
+                        items:1
+                    }
+                }
+            })
+        })
+    </script>
+    <!--/Script JQuery-->
+
+</body>
+</html>
